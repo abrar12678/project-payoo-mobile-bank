@@ -20,6 +20,7 @@ document.getElementById("cashout-btn").addEventListener("click", function () {
   if (pin === "1234") {
     alert("Cashout Successfull");
     setBalance(newBalance);
+    addTransaction(`Cashout : $${cashoutAmount}`);
   } else {
     alert("invalid Pin");
     return;

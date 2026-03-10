@@ -26,10 +26,18 @@ function setBalance(value) {
 function showOnly(id) {
   const addmoney = document.getElementById("add-money");
   const cashout = document.getElementById("cashout");
+  const sendmoney = document.getElementById("send-money");
+  const bonus = document.getElementById("get-bonus");
+  const billpay = document.getElementById("pay-bill");
+  const transactions = document.getElementById("transactions");
   //   console.log(`add Money- ${addmoney} , Cashpout - ${cashout}`);
   //shobai k hide kore dao
   addmoney.classList.add("hidden");
   cashout.classList.add("hidden");
+  bonus.classList.add("hidden");
+  billpay.classList.add("hidden");
+  sendmoney.classList.add("hidden");
+  transactions.classList.add("hidden");
 
   //id wala element ta ke tumi show kora
   const selected = document.getElementById(id);

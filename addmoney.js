@@ -22,6 +22,7 @@ document.getElementById("add-money-btn").addEventListener("click", function () {
          ${bankAccount} 
          at ${new Date()}`);
     setBalance(newBalance);
+    addTransaction(`Add Money from ${bankAccount} : $${amount}`);
   } else {
     alert("Invalid Pin");
 
