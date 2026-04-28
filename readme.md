@@ -1,57 +1,97 @@
-<img src="./assets/Logo-full.png" width="200"  style="background:white;padding:10px;"/>
+# Payoo Mobile Bank – Landing Page
 
-# PAYOO - Smart MFS Interface 
+A simple landing page for a **mobile banking app (Payoo Mobile Bank)** designed with a clean and modern UI for demonstration and portfolio use.  
 
-## Overview
-PAYOO is a smart Mobile Financial Services (MFS) interface that provides a seamless digital banking experience. Built with HTML, CSS, DaisyUI, and Vanilla JavaScript, it offers a user-friendly platform for managing money transfers and financial transactions. The application supports key banking operations including adding money, cashouts, bonus rewards, and comprehensive transaction history tracking.
+Try it live:  
+[https://abrar12678.github.io/project-payoo-mobile-bank/](https://abrar12678.github.io/project-payoo-mobile-bank/)
 
-## Features 
-- **Simple Login Interface** - Secure authentication with username and password
-- **Home Dashboard** - View account balance and quick access to all services
-- **Add Money** - Deposit funds into your PAYOO account
-- **Cash Out** - Withdraw money with PIN verification
-- **Money Transfer** - Send money to other users securely
-- **Bonus Rewards** - Earn and track promotional bonuses
-- **Transaction History** - Complete record of all financial activities
-- **PIN Security System** - Every transaction requires PIN authentication for enhanced security
-- **User-Friendly Interface** - Responsive design built with DaisyUI for optimal experience across devices
+---
 
-## UI 
-<table>
-    <tr>
-        <td>
-        <img src="./ui/Login page.png" >
-        </td>
-        <td >
-        <img src="./assets/Logo-full.png" width="100%" style="background:white;padding:10px;">
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <img src="./ui/Cashout.png" >
-        </td>
-        <td >
-        <img src="./ui/Add Money.png" >
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <img src="./ui/Transactions.png" >
-        </td>
-        <td >
-        <img src="./ui/Pay Bill.png" >
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <img src="./ui/send money.png" >
-        </td>
-        <td >
-        <img src="./ui/Home Page.png">
-        </td>
-    </tr>
-    
-</table>
+## 📷 Screenshots
+
+![Payoo Mobile Bank Screenshot](screenshot2.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5  
+- CSS3 (with custom styling / possibly Tailwind or similar)  
+- JavaScript (if any interactive behavior)  
+- Responsive design for mobile and desktop  
+- Hosted with GitHub Pages (`https://abrar12678.github.io/...`)
+
+---
+
+## ✨ Features
+
+- Clean, modern mobile‑banking style UI  
+- Fully responsive layout (mobile & desktop)  
+- Simple navigation and section layout  
+- Demo‑style design suitable for portfolio  
+- Easy to customize and extend with more content
+
+---
+
+## 📦 Dependencies
+
+This project uses **plain HTML, CSS, and JS** (no heavy framework), so main dependencies are:
+
+- Browsers (Chrome, Firefox, Edge, etc.)  
+- Optional: A simple CSS framework (if you used one).  
+
+If you used any library or framework, list its name here, for example:
+
+- `Tailwind CSS` (or `Bootstrap`, `Sass`, etc.)
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository (replace the URL with your real GitHub repo link):
+
+   ```bash
+   git clone https://github.com/abrar12678/project-payoo-mobile-bank.git
+   ```
+
+2. Go into the project folder:
+
+   ```bash
+   cd project-payoo-mobile-bank
+   ```
+
+3. Open the project in your browser locally (usually by opening `index.html`), or use a simple server:
+
+   Using `Live Server` (VS Code) or any static server:
+
+   ```bash
+   # if using Python (3.x)
+   python -m http.server 8000
+
+   # then visit: http://localhost:8000
+   ```
+
+4. Or simply open `index.html` in your browser from the local folder:
+
+   - Right‑click `index.html` → Open with browser, or  
+   - Drag and drop the file into your browser window.
+
+---
+
+## 🌐 Live Link
+
+- Live demo:  
+  [https://abrar12678.github.io/project-payoo-mobile-bank/](https://abrar12678.github.io/project-payoo-mobile-bank/)
+
+---
+
+## 📚 Notes
+
+- This page is built mainly for **UI/UX practice and portfolio showcase**.  
+- You can easily add more sections: testimonials, features list, pricing, or animations.  
+- All design and layout changes can be made directly in `index.html` and `style.css`.
+
+---
 
 ## How to use
 
@@ -75,4 +115,3 @@ Copy the project assets and set up required CDNs:
 
 
 ### 3. Start Building the Application
-
